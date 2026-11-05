@@ -1,0 +1,14 @@
+{
+  "name": "i-get-overwhelmed",
+  "version": "0.2.0",
+  "description": "Claude for non-technical readers who get overwhelmed: calm first line, one thing at a time, plain words, click-by-click steps that say what you will see. Fork of ayghri/i-have-adhd (MIT).",
+  "author": {
+    "name": "Bamboo Stack",
+    "url": "https://github.com/bamboostack/claude-accessibility"
+  },
+  "license": "MIT",
+  "keywords": [
+    "accessibility",
+    "i-get-overwhelmed"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "carpal-tunnel",
+  "version": "0.2.0",
+  "description": "Claude for people whose hands hurt (carpal tunnel, RSI, arthritis): minimal typing and clicking, one-word answers, dictation read generously, voice first, no drags or finger-twisting shortcuts. Includes voice-setup.",
+  "author": {
+    "name": "Bamboo Stack",
+    "url": "https://github.com/bamboostack/claude-accessibility"
+  },
+  "license": "MIT",
+  "keywords": [
+    "accessibility",
+    "carpal-tunnel"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "plex-freezing",
+    "prompt": "I'm trying to watch a show on Plex on the TV and it keeps freezing every few minutes. What do I do?",
+    "must": ["(?i)you should see", "\\?\\s*(\\(.*\\))?\\s*$"],
+    "must_not": ["(?i)transcod", "(?i)\\bcodec\\b", "(?i)uh oh"],
+    "note": "Calm first line, one step, 'you should see', one easy question, no jargon."
+  },
+  {
+    "id": "tax-letter",
+    "prompt": "I got a letter from the tax office and I don't understand it and I'm stressed",
+    "must": ["(?i)(photo|picture|scan)"],
+    "must_not": ["(?i)\\bpenalt(y|ies) (of|up to)\\b"],
+    "note": "Reassure, ask for one thing (a photo of the letter), no alarming detail."
+  }
+]

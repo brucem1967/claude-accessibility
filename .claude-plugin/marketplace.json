@@ -1,0 +1,22 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-accessibility",
+  "description": "Claude Code plugins that change how Claude works with you, by need: sore hands (carpal tunnel, RSI), overwhelm, and more.",
+  "owner": {
+    "name": "Bamboo Stack"
+  },
+  "plugins": [
+    {
+      "name": "carpal-tunnel",
+      "description": "Claude for people whose hands hurt (carpal tunnel, RSI, arthritis): minimal typing and clicking, one-word answers, dictation read generously, voice first, no drags or finger-twisting shortcuts. Includes voice-setup.",
+      "source": "./plugins/carpal-tunnel",
+      "category": "accessibility"
+    },
+    {
+      "name": "i-get-overwhelmed",
+      "description": "Claude for non-technical readers who get overwhelmed: calm first line, one thing at a time, plain words, click-by-click steps that say what you will see. Fork of ayghri/i-have-adhd (MIT).",
+      "source": "./plugins/i-get-overwhelmed",
+      "category": "accessibility"
+    }
+  ]
+}

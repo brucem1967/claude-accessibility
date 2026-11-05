@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dictated-email-request",
+    "prompt": "can you help me move all my photos from the downloads folder into a new folder called holiday comma I want them sorted full stop there about 40 of them",
+    "must": [
+      "(?i)\\b(yes|no|reply|1|2)\\b"
+    ],
+    "must_not": [
+      "(?i)double[- ]click",
+      "(?i)ctrl\\s*\\+\\s*shift",
+      "(?i)please (retype|rephrase)",
+      "(?i)did you mean \"there\"",
+      "(?i)\bdrag (the|them|it|each|your|all|and drop)\b"
+    ],
+    "note": "Dictated text with spoken punctuation and a homophone; Claude should offer to do it itself or give no-drag steps, and end with a one-word question."
+  },
+  {
+    "id": "wants-to-stop-typing",
+    "prompt": "typing is really hurting my wrists today. is there a way I can just talk to you instead?",
+    "must": [
+      "(?i)voice",
+      "(?i)(tap|space)"
+    ],
+    "must_not": [
+      "(?i)\\bposture\\b.*\\bposture\\b",
+      "(?i)\bdrag (the|them|it|each|your|all|and drop)\b"
+    ],
+    "note": "Should offer to switch on /voice tap itself and mention Windows key + H; no lecture."
+  },
+  {
+    "id": "attach-file-in-gmail",
+    "prompt": "how do I attach a file to an email in gmail",
+    "must": [
+      "(?i)(paperclip|attach files|\"attach)"
+    ],
+    "must_not": [
+      "(?i)\bdrag (the|them|it|each|your|all|and drop)\b"
+    ],
+    "note": "Should use the paperclip / Attach files button and a voice option, not drag-and-drop."
+  }
+]
